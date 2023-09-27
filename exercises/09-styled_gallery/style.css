@@ -1,0 +1,40 @@
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+	background-color: gray;
+}
+
+img {
+	display: block;
+	margin: auto auto auto auto;
+	border-radius: 15px;
+	max-width: 100%;
+	box-shadow: 5px 5px 5px 5px;
+	opacity: 0.8;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+figcaption {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+figcaption::before {
+	font-family: apple color emoji, segoe ui emoji, noto color emoji, android emoji, emojisymbols, emojione mozilla, twemoji mozilla, segoe ui symbol;
+	content: "\12824";
+}
+
+figure a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+figure a:hover {
+	color: rgb(25, 0, 255);
+}
