@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	color: lightgray;
+	margin-right: 45%;
+	border: 3px solid white;
+	border-radius: 50px;
+}
+
+header {
+	text-align: center;
+	flex: top;
+	order: -2;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	text-align: justify;
+}
+
+#side_image {
+	float: left;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+#bottom_image {
+	display: block;
+	margin: auto;
+	margin-top: 10%;
+	border-radius:30px;
+	float: bottom;
+	align: center;
+}
+
+figcaption {
+	text-align: center;
+}
