@@ -1,0 +1,258 @@
+body {
+	background-color: grey;
+}
+
+.flag {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 120ex;
+	height: 72ex;
+}
+
+.flag .column {
+	flex-direction: column;
+}
+
+figcaption {
+	text-align: center;
+	align-self: flex-end;
+}
+
+#first_stripe_it {
+	background-color: darkgreen;
+	width: 40ex;
+	height: 72ex;
+}
+
+#second_stripe_it {
+	background-color: white;
+	width: 40ex;
+	height: 72ex;
+}
+
+#third_stripe_it {
+	background-color: red;
+	width: 40ex;
+	height: 72ex;
+}
+
+#first_stripe_ua {
+	background-color: blue;
+	width: 120ex;
+	height: 36ex;
+}
+
+#second_stripe_ua {
+	background-color: yellow;
+	width: 120ex;
+	height: 36ex;
+}
+
+#first_stripe_ge {
+	background-color: black;
+	width: 120ex;
+	height: 24ex;
+}
+
+#second_stripe_ge {
+	background-color: red;
+	width: 120ex;
+	height: 24ex;
+}
+
+#third_stripe_ge {
+	background-color: yellow;
+	width: 120ex;
+	height: 24ex;
+}
+
+#first_stripe_bw {
+	background-color: lightblue;
+	width: 120ex;
+	height: 24ex;
+}
+
+#second_stripe_bw {
+	background-color: white;
+	width: 120ex;
+	height: 6ex;
+}
+
+#third_stripe_bw {
+	background-color: black;
+	width: 120ex;
+	height: 12ex;
+}
+
+#fourth_stripe_bw {
+	background-color: white;
+	width: 120ex;
+	height: 6ex;
+}
+
+#fith_stripe_bw {
+	background-color: lightblue;
+	width: 120ex;
+	height: 24ex;
+}
+
+#intenal_columns {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 72ex;
+	height: 72ex;
+	flex-direction: column;
+}
+
+#first_stripe_bj {
+	background-color: darkgreen;
+	width: 48ex;
+	height: 72ex;
+}
+
+#second_stripe_bj {
+	background-color: yellow;
+	width: 72ex;
+	height: 36ex;
+}
+
+#third_stripe_bj {
+	background-color: red;
+	width: 72ex;
+	height: 36ex;
+}
+
+#only_stripe_fi {
+	background-color: darkblue;
+	width: 120ex;
+	height: 20ex;
+}
+
+.internal_pattern_fi {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 120ex;
+	height: 26ex;
+}
+
+.first_block_fi {
+	background-color: white;
+	width: 32ex;
+	height: 26ex;
+}
+
+.second_block_fi {
+	background-color: darkblue;
+	width: 20ex;
+	height: 26ex;
+}
+.third_block_fi {
+	background-color: white;
+	width: 68ex;
+	height: 26ex;
+}
+
+.pattern_th {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 120ex;
+	height: 22ex;
+}
+
+.red_block_th {
+	background-color: darkred;
+	width: 120ex;
+	height: 11ex;
+}
+
+.white_block_th {
+	background-color: white;
+	width: 120ex;
+	height: 11ex;
+}
+
+#middle_stripe_th {
+	background-color: darkblue;
+	width: 120ex;
+	height: 28ex;
+}
+
+.pattern_no {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 120ex;
+	height: 24ex;
+}
+
+.red_square_no {
+	background-color: darkred;
+	width: 24ex;
+	height: 24ex;
+}
+
+.vertical_white_no {
+	background-color: white;
+	width: 6ex;
+	height: 24ex;
+}
+
+.vertical_blue_no {
+	background-color: darkblue;
+	width: 12ex;
+	height: 24ex;
+}
+
+.red_rectangle_no {
+	background-color: darkred;
+	width: 72ex;
+	height: 24ex;
+}
+
+.white_stripe_no {
+	background-color: white;
+	width: 120ex;
+	height: 6ex;
+}
+
+.thin_stripe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 120ex;
+	height: 6ex;
+}
+
+.short_white_stripe_no {
+	background-color: white;
+	width: 30ex;
+	height: 6ex;
+}
+
+.short_blue_stripe_no {
+	background-color: darkblue;
+	width: 12ex;
+	height: 6ex;
+}
+
+.long_white_stripe_no {
+	background-color: white;
+	width: 78ex;
+	height: 6ex;
+}
+
+#blue_stripe_no {
+	background-color: darkblue;
+	width: 120ex;
+	height: 12ex;
+}
