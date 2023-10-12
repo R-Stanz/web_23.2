@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <title>VueJS Course</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+
+  <div id="app">
+      <form method="GET" id="form">
+
+      <label>
+        Category:
+
+        <select id="category" v-model="selectedCategory">
+		<option v-for="category in categories" >{{ category }}</option>
+
+        </select>
+      </label>
+
+      <label>
+        Description:
+
+        <input type="text" name="description" id="description" v-model.lazy="description">
+      </label>
+
+      <label>
+
+        Release Date:
+        <input type="date" id="date" v-model="date">
+
+      </label>
+      <button type="button" @click="submit">send</button>
+
+    </form>
+
+  <main>
+
+  <h1>To Do:</h1>
+  <ul id="to_do">
+
+	  <li v-for="task in tasks" v-show="!task.done"> 
+
+		  <input type="checkbox" v-model="task.done">
+			  {{ task.category }} Task: {{ task.description }}.<br />
+			  Expire date: {{ task.date }}
+		  </input>
+
+	  </li>
+  </ul>
+
+  <h1>Done</h1>
+  <ul id="done">
+
+	  <li v-for="task in tasks" v-show="task.done"> 
+
+		  <input type="checkbox" v-model="task.done">
+			  {{ task.category }} Task: {{ task.description }}.<br />
+			  Expire date: {{ task.date }}
+		  </input>
+
+	  </li>
+  </ul>
+
+  </main>
+  </div>
+
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
